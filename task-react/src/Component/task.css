@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.project-task {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height:800px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+input{
+    padding: 10px 6px;
+    width: 40%;
+    margin-top: 20px;
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: all 1s;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(7, 179, 231, 0.992);
+}
